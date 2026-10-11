@@ -1,0 +1,21 @@
+[
+  {
+    "_id": "9b32e607-f3d6-45cc-b239-f24ad20a5cea",
+    "createdAt": "2026-10-05T14:36:26.323Z",
+    "updatedAt": "2026-10-11T06:04:01.945Z",
+    "key": "global_system_settings",
+    "value": {
+      "companyName": "EHBVS Solutions",
+      "companyEmail": "ehbvssolutions@gmail.com",
+      "companyPhone": "+91 98765 43210",
+      "companyAddress": "EHBVS Solutions Corporate Towers, Outer Ring Road, Bengaluru, Karnataka 560103, India",
+      "workStartTime": "09:00",
+      "workEndTime": "18:00",
+      "dailyWorkHoursTarget": 8,
+      "lateGraceMinutes": 15,
+      "requireDailyWorkReport": true,
+      "emailNotificationsEnabled": false,
+      "enableHeartbeatMonitoring": true
+    }
+  }
+]

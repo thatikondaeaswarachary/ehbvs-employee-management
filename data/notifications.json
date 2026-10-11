@@ -1,0 +1,12 @@
+[
+  {
+    "_id": "11615de7-30a5-4289-bf9e-5c7d894cf748",
+    "createdAt": "2026-10-03T11:53:59.705Z",
+    "updatedAt": "2026-10-03T11:53:59.705Z",
+    "userId": "5bcc4411-0e7f-4028-bd92-f646f75f1911",
+    "title": "Application Status: Approved",
+    "message": "Your application has been Approved.",
+    "type": "application",
+    "read": false
+  }
+]

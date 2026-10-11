@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "2977e680-0c0c-44d7-998b-f13448c441de",
+    "createdAt": "2026-10-11T05:29:22.682Z",
+    "updatedAt": "2026-10-11T06:14:00.078Z",
+    "employee": "f2339d90-a645-4bff-a3be-469550851083",
+    "date": "2026-10-11",
+    "checkIn": "2026-10-11T05:29:22.682Z",
+    "checkOut": "2026-10-11T05:58:22.014Z",
+    "workingMinutes": 480,
+    "status": "Present",
+    "workStatus": "Completed",
+    "remarks": "Verified by Admin",
+    "updatedBy": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c"
+  },
+  {
+    "_id": "0bee64ee-1a9a-4084-ada6-a78a2f3562f8",
+    "createdAt": "2026-10-11T06:07:53.998Z",
+    "updatedAt": "2026-10-11T06:35:31.733Z",
+    "employee": "69b7a9cf-49e5-49af-83b3-56187c7f4114",
+    "date": "2026-10-11",
+    "checkIn": "2026-10-11T06:07:00.000Z",
+    "checkOut": "2026-10-11T06:07:00.000Z",
+    "workingMinutes": 0,
+    "status": "Half Day",
+    "workStatus": "Completed",
+    "remarks": "",
+    "updatedBy": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c"
+  },
+  {
+    "_id": "0b051b65-cde8-475c-afdc-ab93d2d3df8a",
+    "createdAt": "2026-10-11T06:12:41.594Z",
+    "updatedAt": "2026-10-11T06:35:58.129Z",
+    "employee": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+    "date": "2026-10-11",
+    "checkIn": "2026-10-11T06:12:00.000Z",
+    "checkOut": "2026-10-11T12:30:00.000Z",
+    "workingMinutes": 155,
+    "status": "Present",
+    "workStatus": "Working",
+    "remarks": "",
+    "updatedBy": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c"
+  },
+  {
+    "_id": "74b8fecb-9272-45ee-ae3a-cdc5f0d6633e",
+    "createdAt": "2026-10-11T06:19:02.319Z",
+    "updatedAt": "2026-10-11T06:19:02.336Z",
+    "employee": "69b7a9cf-49e5-49af-83b3-56187c7f4114",
+    "date": "2026-10-10",
+    "checkIn": "2026-10-10T04:30:00.000Z",
+    "checkOut": "2026-10-10T08:30:00.000Z",
+    "status": "Half Day",
+    "workStatus": "Working",
+    "workingMinutes": 240,
+    "remarks": "Admin updated to Half Day",
+    "updatedBy": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c"
+  }
+]

@@ -1,0 +1,969 @@
+[
+  {
+    "_id": "ec375c8a-0a43-4228-9d95-0af0e66ed73d",
+    "createdAt": "2026-10-05T14:33:13.938Z",
+    "updatedAt": "2026-10-05T14:33:13.938Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "EHBVS Solutions Admin",
+    "actorEmail": "admin@ehbvssolutions.com",
+    "action": "EMPLOYEE_CREATED",
+    "entity": "User",
+    "entityId": "36915c64-fdfe-4c00-9898-07754d108cdf",
+    "metadata": {
+      "name": "Rohan Sharma",
+      "employeeId": "EHB-DEV-554",
+      "email": "rohan.1791210793650@ehbvssolutions.com",
+      "department": "Engineering"
+    }
+  },
+  {
+    "_id": "b9ba160a-df63-4877-88c1-93ed327ff721",
+    "createdAt": "2026-10-05T14:36:26.178Z",
+    "updatedAt": "2026-10-05T14:36:26.179Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "EHBVS Solutions Admin",
+    "actorEmail": "admin@ehbvssolutions.com",
+    "action": "EMPLOYEE_CREATED",
+    "entity": "User",
+    "entityId": "9d736266-3b57-4428-87f2-912d06f8873e",
+    "metadata": {
+      "name": "Aditya Varma",
+      "employeeId": "EHB-DEV-5393",
+      "email": "aditya.5393@ehbvssolutions.com",
+      "department": "Engineering"
+    }
+  },
+  {
+    "_id": "667143a3-e376-4633-bb3e-3c37c97e71aa",
+    "createdAt": "2026-10-05T14:36:26.267Z",
+    "updatedAt": "2026-10-05T14:36:26.267Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "EHBVS Solutions Admin",
+    "actorEmail": "admin@ehbvssolutions.com",
+    "action": "TASK_CREATED",
+    "entity": "Task",
+    "entityId": "30eeb109-4752-44d1-8926-4606c299430e",
+    "metadata": {
+      "taskId": "TSK-1001",
+      "title": "Setup Distributed Monitoring Infrastructure",
+      "assignedTo": "9d736266-3b57-4428-87f2-912d06f8873e"
+    }
+  },
+  {
+    "_id": "20811bbb-7f92-4544-9e76-50318d7c4330",
+    "createdAt": "2026-10-05T14:36:26.280Z",
+    "updatedAt": "2026-10-05T14:36:26.280Z",
+    "actor": "9d736266-3b57-4428-87f2-912d06f8873e",
+    "actorName": "Aditya Varma",
+    "actorEmail": "aditya.5393@ehbvssolutions.com",
+    "action": "TASK_STATUS_UPDATED",
+    "entity": "Task",
+    "entityId": "30eeb109-4752-44d1-8926-4606c299430e",
+    "metadata": {
+      "status": "In Progress",
+      "progress": 0
+    }
+  },
+  {
+    "_id": "d0bbb125-8cad-45ef-a501-8d40d2c3bf22",
+    "createdAt": "2026-10-05T14:36:26.288Z",
+    "updatedAt": "2026-10-05T14:36:26.288Z",
+    "actor": "9d736266-3b57-4428-87f2-912d06f8873e",
+    "actorName": "Aditya Varma",
+    "actorEmail": "aditya.5393@ehbvssolutions.com",
+    "action": "WORK_REPORT_SUBMITTED",
+    "entity": "WorkReport",
+    "entityId": "63b47a2e-e2e9-497c-8e07-42bac3d04786",
+    "metadata": {
+      "date": "2026-10-05",
+      "employeeName": "Aditya Varma"
+    }
+  },
+  {
+    "_id": "e5742efa-1e05-476e-bf0b-840ac12a83e1",
+    "createdAt": "2026-10-05T14:36:26.294Z",
+    "updatedAt": "2026-10-05T14:36:26.294Z",
+    "actor": "9d736266-3b57-4428-87f2-912d06f8873e",
+    "actorName": "Aditya Varma",
+    "actorEmail": "aditya.5393@ehbvssolutions.com",
+    "action": "LEAVE_REQUESTED",
+    "entity": "Leave",
+    "entityId": "bab18524-a045-49bd-83ab-f3bd318c718d",
+    "metadata": {
+      "leaveType": "Casual Leave",
+      "fromDate": "2026-10-08",
+      "toDate": "2026-10-09",
+      "employeeName": "Aditya Varma"
+    }
+  },
+  {
+    "_id": "e03b36ce-2b4b-4517-8d70-86b5fe372f3a",
+    "createdAt": "2026-10-05T14:36:26.303Z",
+    "updatedAt": "2026-10-05T14:36:26.303Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "EHBVS Solutions Admin",
+    "actorEmail": "admin@ehbvssolutions.com",
+    "action": "ANNOUNCEMENT_CREATED",
+    "entity": "Announcement",
+    "entityId": "e240d4c2-7302-437c-9cfb-fc4dc3b93f6e",
+    "metadata": {
+      "title": "Q4 2026 Townhall & Strategy Meeting",
+      "audience": "All Employees",
+      "recipientsCount": 3
+    }
+  },
+  {
+    "_id": "20669828-0e6e-43c0-b929-0cd002a5050e",
+    "createdAt": "2026-10-05T14:37:03.709Z",
+    "updatedAt": "2026-10-05T14:37:03.709Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "EHBVS Solutions Admin",
+    "actorEmail": "admin@ehbvssolutions.com",
+    "action": "EMPLOYEE_CREATED",
+    "entity": "User",
+    "entityId": "334f28d7-fbd4-4474-85f3-550eb19303b2",
+    "metadata": {
+      "name": "Aditya Varma",
+      "employeeId": "EHB-DEV-6329",
+      "email": "aditya.6329@ehbvssolutions.com",
+      "department": "Engineering"
+    }
+  },
+  {
+    "_id": "42ad085c-de73-4ef3-a9a3-115f47273a8d",
+    "createdAt": "2026-10-05T14:37:03.786Z",
+    "updatedAt": "2026-10-05T14:37:03.786Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "EHBVS Solutions Admin",
+    "actorEmail": "admin@ehbvssolutions.com",
+    "action": "TASK_CREATED",
+    "entity": "Task",
+    "entityId": "b4597a8a-8ed8-4f29-9aec-a2c24f53b667",
+    "metadata": {
+      "taskId": "TSK-1002",
+      "title": "Setup Distributed Monitoring Infrastructure",
+      "assignedTo": "334f28d7-fbd4-4474-85f3-550eb19303b2"
+    }
+  },
+  {
+    "_id": "42e1344c-0dd3-4c1e-be40-e979c719e32f",
+    "createdAt": "2026-10-05T14:37:03.796Z",
+    "updatedAt": "2026-10-05T14:37:03.796Z",
+    "actor": "334f28d7-fbd4-4474-85f3-550eb19303b2",
+    "actorName": "Aditya Varma",
+    "actorEmail": "aditya.6329@ehbvssolutions.com",
+    "action": "TASK_STATUS_UPDATED",
+    "entity": "Task",
+    "entityId": "b4597a8a-8ed8-4f29-9aec-a2c24f53b667",
+    "metadata": {
+      "status": "In Progress",
+      "progress": 0
+    }
+  },
+  {
+    "_id": "8400562f-f31e-447c-8286-7caff045cb13",
+    "createdAt": "2026-10-05T14:37:03.801Z",
+    "updatedAt": "2026-10-05T14:37:03.801Z",
+    "actor": "334f28d7-fbd4-4474-85f3-550eb19303b2",
+    "actorName": "Aditya Varma",
+    "actorEmail": "aditya.6329@ehbvssolutions.com",
+    "action": "WORK_REPORT_SUBMITTED",
+    "entity": "WorkReport",
+    "entityId": "191deeb2-9c2b-40b8-b964-dac1f6ea4742",
+    "metadata": {
+      "date": "2026-10-05",
+      "employeeName": "Aditya Varma"
+    }
+  },
+  {
+    "_id": "68bfbbb9-7880-44f0-948e-23717373bfd2",
+    "createdAt": "2026-10-05T14:37:03.806Z",
+    "updatedAt": "2026-10-05T14:37:03.806Z",
+    "actor": "334f28d7-fbd4-4474-85f3-550eb19303b2",
+    "actorName": "Aditya Varma",
+    "actorEmail": "aditya.6329@ehbvssolutions.com",
+    "action": "LEAVE_REQUESTED",
+    "entity": "Leave",
+    "entityId": "14b98c33-f6dd-48e7-81a9-42d14363974b",
+    "metadata": {
+      "leaveType": "Casual Leave",
+      "fromDate": "2026-10-08",
+      "toDate": "2026-10-09",
+      "employeeName": "Aditya Varma"
+    }
+  },
+  {
+    "_id": "0db0a3a2-9539-4d37-bc53-385536834520",
+    "createdAt": "2026-10-05T14:37:03.812Z",
+    "updatedAt": "2026-10-05T14:37:03.813Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "EHBVS Solutions Admin",
+    "actorEmail": "admin@ehbvssolutions.com",
+    "action": "LEAVE_APPROVED",
+    "entity": "Leave",
+    "entityId": "14b98c33-f6dd-48e7-81a9-42d14363974b",
+    "metadata": {
+      "leaveType": "Casual Leave",
+      "fromDate": "2026-10-08",
+      "toDate": "2026-10-09",
+      "employeeId": "334f28d7-fbd4-4474-85f3-550eb19303b2"
+    }
+  },
+  {
+    "_id": "0f825b80-d2c1-460b-846a-2b32cd4feb5a",
+    "createdAt": "2026-10-05T14:37:03.818Z",
+    "updatedAt": "2026-10-05T14:37:03.818Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "EHBVS Solutions Admin",
+    "actorEmail": "admin@ehbvssolutions.com",
+    "action": "ANNOUNCEMENT_CREATED",
+    "entity": "Announcement",
+    "entityId": "90c9ed10-465f-442d-bf52-f9fb9243451c",
+    "metadata": {
+      "title": "Q4 2026 Townhall & Strategy Meeting",
+      "audience": "All Employees",
+      "recipientsCount": 4
+    }
+  },
+  {
+    "_id": "02f6098e-1c0e-43f8-8ace-8141076b6efd",
+    "createdAt": "2026-10-05T14:40:49.303Z",
+    "updatedAt": "2026-10-05T14:40:49.303Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "EHBVS Solutions Admin",
+    "actorEmail": "admin@ehbvssolutions.com",
+    "action": "EMPLOYEE_UPDATED",
+    "entity": "User",
+    "entityId": "36915c64-fdfe-4c00-9898-07754d108cdf",
+    "metadata": {
+      "name": "Shiva Ram Talluri",
+      "phone": "+91 91234 56789",
+      "department": "Engineering",
+      "designation": "Senior Frontend Engineer",
+      "joiningDate": "2025-03-01",
+      "role": "EMPLOYEE"
+    }
+  },
+  {
+    "_id": "b9ea4281-d00a-4895-913d-77769cce0f2f",
+    "createdAt": "2026-10-05T14:41:19.375Z",
+    "updatedAt": "2026-10-05T14:41:19.375Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "EHBVS Solutions Admin",
+    "actorEmail": "admin@ehbvssolutions.com",
+    "action": "EMPLOYEE_UPDATED",
+    "entity": "User",
+    "entityId": "334f28d7-fbd4-4474-85f3-550eb19303b2",
+    "metadata": {
+      "name": "Bhargavi Chowdary",
+      "phone": "+91 98111 22233",
+      "department": "Engineering",
+      "designation": "Senior Cloud Engineer",
+      "joiningDate": "2025-02-15",
+      "role": "EMPLOYEE"
+    }
+  },
+  {
+    "_id": "5171409c-a596-491b-8a24-19d0441603be",
+    "createdAt": "2026-10-05T14:48:22.863Z",
+    "updatedAt": "2026-10-05T14:48:22.864Z",
+    "actor": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+    "actorName": "bdhsa",
+    "actorEmail": "acfde@gmail.com",
+    "action": "LEAVE_REQUESTED",
+    "entity": "Leave",
+    "entityId": "a63a76b1-98d8-4905-8098-b0ff748ba075",
+    "metadata": {
+      "leaveType": "Casual Leave",
+      "fromDate": "2026-10-06",
+      "toDate": "2026-10-08",
+      "employeeName": "bdhsa"
+    }
+  },
+  {
+    "_id": "6cd910d0-d6c1-463e-a199-f090ecc9df7f",
+    "createdAt": "2026-10-05T14:56:34.438Z",
+    "updatedAt": "2026-10-05T14:56:34.439Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "PASSWORD_RESET_BY_ADMIN",
+    "entity": "User",
+    "entityId": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "metadata": {}
+  },
+  {
+    "_id": "05e582f0-378a-465c-bc2e-d13399d7477c",
+    "createdAt": "2026-10-05T14:59:14.738Z",
+    "updatedAt": "2026-10-05T14:59:14.739Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "EMPLOYEE_UPDATED",
+    "entity": "User",
+    "entityId": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "metadata": {
+      "name": "Eswara Chary Thatikonda",
+      "phone": "+919494067204",
+      "department": "Administration",
+      "designation": "Managing Director / Administrator",
+      "joiningDate": "2025-01-01",
+      "role": "ADMIN"
+    }
+  },
+  {
+    "_id": "a662a0fd-5467-4dae-af80-17a2d3bafb70",
+    "createdAt": "2026-10-05T14:59:22.452Z",
+    "updatedAt": "2026-10-05T14:59:22.452Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "EMPLOYEE_DISABLED",
+    "entity": "User",
+    "entityId": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+    "metadata": {
+      "isActive": false
+    }
+  },
+  {
+    "_id": "f933c33d-280d-4086-ba9c-fbf4cb05d81d",
+    "createdAt": "2026-10-11T05:40:41.161Z",
+    "updatedAt": "2026-10-11T05:40:41.163Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "EMPLOYEE_DISABLED",
+    "entity": "User",
+    "entityId": "f2339d90-a645-4bff-a3be-469550851083",
+    "metadata": {
+      "isActive": false
+    }
+  },
+  {
+    "_id": "a5f834dc-af03-4b99-9555-a9bbf0738e78",
+    "createdAt": "2026-10-11T05:40:50.528Z",
+    "updatedAt": "2026-10-11T05:40:50.529Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "EMPLOYEE_ACTIVATED",
+    "entity": "User",
+    "entityId": "f2339d90-a645-4bff-a3be-469550851083",
+    "metadata": {
+      "isActive": true
+    }
+  },
+  {
+    "_id": "65200753-c758-4e02-9ad8-cb59b69bd647",
+    "createdAt": "2026-10-11T05:42:06.170Z",
+    "updatedAt": "2026-10-11T05:42:06.171Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "EMPLOYEE_UPDATED",
+    "entity": "User",
+    "entityId": "f2339d90-a645-4bff-a3be-469550851083",
+    "metadata": {
+      "name": "Shiva Ram Talluri",
+      "phone": "+916303387728",
+      "department": "Engineering",
+      "designation": "Senior Frontend Engineer",
+      "joiningDate": "2026-10-11",
+      "role": "EMPLOYEE"
+    }
+  },
+  {
+    "_id": "0af7bf62-c19c-4026-9fe9-3d6f662e9f1c",
+    "createdAt": "2026-10-11T05:42:36.485Z",
+    "updatedAt": "2026-10-11T05:42:36.486Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "PASSWORD_RESET_BY_ADMIN",
+    "entity": "User",
+    "entityId": "f2339d90-a645-4bff-a3be-469550851083",
+    "metadata": {}
+  },
+  {
+    "_id": "187109cb-7811-4c50-bd51-92b622e14452",
+    "createdAt": "2026-10-11T06:00:40.725Z",
+    "updatedAt": "2026-10-11T06:00:40.728Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "EMPLOYEE_UPDATED",
+    "entity": "User",
+    "entityId": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+    "metadata": {
+      "name": "Bhargavi Chowdary",
+      "phone": "+916302931704",
+      "department": "Operations",
+      "designation": "MD",
+      "joiningDate": "2026-10-05",
+      "role": "EMPLOYEE"
+    }
+  },
+  {
+    "_id": "29806def-40d7-46c4-97af-187ca14a5510",
+    "createdAt": "2026-10-11T06:00:57.300Z",
+    "updatedAt": "2026-10-11T06:00:57.300Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "PASSWORD_RESET_BY_ADMIN",
+    "entity": "User",
+    "entityId": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+    "metadata": {}
+  },
+  {
+    "_id": "6af17dfc-5b8c-4bab-8c19-80e295965524",
+    "createdAt": "2026-10-11T06:01:15.546Z",
+    "updatedAt": "2026-10-11T06:01:15.546Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "EMPLOYEE_ACTIVATED",
+    "entity": "User",
+    "entityId": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+    "metadata": {
+      "isActive": true
+    }
+  },
+  {
+    "_id": "a8b1f53d-6324-4263-a44c-0ad8924e2073",
+    "createdAt": "2026-10-11T06:04:01.946Z",
+    "updatedAt": "2026-10-11T06:04:01.946Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "SETTINGS_UPDATED",
+    "entity": "Setting",
+    "entityId": "9b32e607-f3d6-45cc-b239-f24ad20a5cea",
+    "metadata": {
+      "companyName": "EHBVS Solutions",
+      "companyEmail": "ehbvssolutions@gmail.com",
+      "companyPhone": "+91 98765 43210",
+      "companyAddress": "EHBVS Solutions Corporate Towers, Outer Ring Road, Bengaluru, Karnataka 560103, India",
+      "workStartTime": "09:00",
+      "workEndTime": "18:00",
+      "dailyWorkHoursTarget": 8,
+      "lateGraceMinutes": 15,
+      "requireDailyWorkReport": true,
+      "emailNotificationsEnabled": false,
+      "enableHeartbeatMonitoring": true
+    }
+  },
+  {
+    "_id": "6d0f385f-6d9a-40fa-88eb-bdbdffdfcb6c",
+    "createdAt": "2026-10-11T06:06:58.837Z",
+    "updatedAt": "2026-10-11T06:06:58.837Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "EMPLOYEE_CREATED",
+    "entity": "User",
+    "entityId": "6252f950-7e68-488b-8967-051d4be48729",
+    "metadata": {
+      "name": "Varshini",
+      "employeeId": "EHB-4532-234",
+      "email": "srivarshinikema@gmail.com",
+      "department": "Operations"
+    }
+  },
+  {
+    "_id": "e96701be-647f-4540-9804-72b6381cf4a5",
+    "createdAt": "2026-10-11T06:07:57.477Z",
+    "updatedAt": "2026-10-11T06:07:57.478Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "EMPLOYEE_UPDATED",
+    "entity": "User",
+    "entityId": "f2339d90-a645-4bff-a3be-469550851083",
+    "metadata": {
+      "name": "Shiva Ram Talluri",
+      "email": "shiva.talluri@ehbvs.com",
+      "phone": "+916303387728",
+      "department": "Engineering",
+      "designation": "Senior Frontend Engineer",
+      "role": "EMPLOYEE"
+    }
+  },
+  {
+    "_id": "895edc1b-e79b-4624-b30e-7b325677b443",
+    "createdAt": "2026-10-11T06:08:40.255Z",
+    "updatedAt": "2026-10-11T06:08:40.257Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "EMPLOYEE_UPDATED",
+    "entity": "User",
+    "entityId": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+    "metadata": {
+      "name": "Bhargavi Chowdary",
+      "email": "yarlagaddabhargavi07@gmail.com",
+      "employeeId": "EHB-5677-23",
+      "phone": "+916302931704",
+      "department": "Operations",
+      "designation": "MD",
+      "joiningDate": "2026-10-05",
+      "role": "EMPLOYEE"
+    }
+  },
+  {
+    "_id": "eda6d127-4257-4f2b-9f88-0ad46e63ce87",
+    "createdAt": "2026-10-11T06:09:32.067Z",
+    "updatedAt": "2026-10-11T06:09:32.068Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "LEAVE_REJECTED",
+    "entity": "Leave",
+    "entityId": "a63a76b1-98d8-4905-8098-b0ff748ba075",
+    "metadata": {
+      "leaveType": "Casual Leave",
+      "fromDate": "2026-10-06",
+      "toDate": "2026-10-08",
+      "employeeId": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+      "reason": "no\n"
+    }
+  },
+  {
+    "_id": "b2065a06-1caf-4d35-bca6-379ea96bd568",
+    "createdAt": "2026-10-11T06:11:05.323Z",
+    "updatedAt": "2026-10-11T06:11:05.324Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "ANNOUNCEMENT_CREATED",
+    "entity": "Announcement",
+    "entityId": "77aafa5c-537e-47ed-94cb-e397b24526fc",
+    "metadata": {
+      "title": "Home Repair Service  APP",
+      "audience": "All Employees",
+      "recipientsCount": 5
+    }
+  },
+  {
+    "_id": "d5bc4208-5209-45e6-b268-e3059aee9dc8",
+    "createdAt": "2026-10-11T06:14:00.079Z",
+    "updatedAt": "2026-10-11T06:14:00.079Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "ATTENDANCE_MODIFIED",
+    "entity": "Attendance",
+    "entityId": "2977e680-0c0c-44d7-998b-f13448c441de",
+    "metadata": {
+      "employeeId": "f2339d90-a645-4bff-a3be-469550851083",
+      "date": "2026-10-11",
+      "oldStatus": "Half Day",
+      "newStatus": "Present",
+      "remarks": "Verified by Admin"
+    }
+  },
+  {
+    "_id": "f7c3695c-b614-479d-a346-9fbe25ff89eb",
+    "createdAt": "2026-10-11T06:14:08.313Z",
+    "updatedAt": "2026-10-11T06:14:08.314Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "EMPLOYEE_UPDATED",
+    "entity": "User",
+    "entityId": "6252f950-7e68-488b-8967-051d4be48729",
+    "metadata": {
+      "name": "Varshini",
+      "phone": "+919908492051",
+      "department": "Operations",
+      "designation": "Developer",
+      "joiningDate": "2026-10-11",
+      "role": "EMPLOYEE"
+    }
+  },
+  {
+    "_id": "b59cb42c-dfce-4cae-989c-9ac48cee2cfa",
+    "createdAt": "2026-10-11T06:19:02.320Z",
+    "updatedAt": "2026-10-11T06:19:02.320Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "ATTENDANCE_ADMIN_CREATED",
+    "entity": "Attendance",
+    "entityId": "74b8fecb-9272-45ee-ae3a-cdc5f0d6633e",
+    "metadata": {
+      "employeeId": "69b7a9cf-49e5-49af-83b3-56187c7f4114",
+      "date": "2026-10-10",
+      "status": "Present",
+      "remarks": "Admin verified punch"
+    }
+  },
+  {
+    "_id": "0c84791c-13ae-460e-874b-6e18c9162f3f",
+    "createdAt": "2026-10-11T06:19:02.337Z",
+    "updatedAt": "2026-10-11T06:19:02.338Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "ATTENDANCE_MODIFIED",
+    "entity": "Attendance",
+    "entityId": "74b8fecb-9272-45ee-ae3a-cdc5f0d6633e",
+    "metadata": {
+      "employeeId": "69b7a9cf-49e5-49af-83b3-56187c7f4114",
+      "date": "2026-10-10",
+      "oldStatus": "Present",
+      "newStatus": "Half Day",
+      "remarks": "Admin updated to Half Day"
+    }
+  },
+  {
+    "_id": "e01779a0-01f5-41bc-9b86-68de0736dc47",
+    "createdAt": "2026-10-11T06:19:04.918Z",
+    "updatedAt": "2026-10-11T06:19:04.918Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "TASK_CREATED",
+    "entity": "Task",
+    "entityId": "7832ccf3-14b2-45c7-b724-d188df65a45b",
+    "metadata": {
+      "taskId": "TSK-1001",
+      "title": "UI/UX & Frontend Engineer",
+      "assignedTo": "f2339d90-a645-4bff-a3be-469550851083"
+    }
+  },
+  {
+    "_id": "90187989-03c1-43c5-b006-0b150b59cb83",
+    "createdAt": "2026-10-11T06:19:47.967Z",
+    "updatedAt": "2026-10-11T06:19:47.967Z",
+    "actor": "f2339d90-a645-4bff-a3be-469550851083",
+    "actorName": "Shiva Ram Talluri",
+    "actorEmail": "shiva.talluri@ehbvs.com",
+    "action": "TASK_STATUS_UPDATED",
+    "entity": "Task",
+    "entityId": "7832ccf3-14b2-45c7-b724-d188df65a45b",
+    "metadata": {
+      "status": "Completed",
+      "progress": 100
+    }
+  },
+  {
+    "_id": "9429a59c-7672-4a4a-b9a6-60707abdfff3",
+    "createdAt": "2026-10-11T06:20:08.213Z",
+    "updatedAt": "2026-10-11T06:20:08.213Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "TASK_CREATED",
+    "entity": "Task",
+    "entityId": "febc3f4c-55b4-4b34-9da7-a594475aae68",
+    "metadata": {
+      "taskId": "TSK-1002",
+      "title": "Server & Database Engineer",
+      "assignedTo": "6252f950-7e68-488b-8967-051d4be48729"
+    }
+  },
+  {
+    "_id": "7a41bf77-1026-48ed-b8a2-9b6b0761cc6e",
+    "createdAt": "2026-10-11T06:21:21.267Z",
+    "updatedAt": "2026-10-11T06:21:21.267Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "TASK_CREATED",
+    "entity": "Task",
+    "entityId": "b23aea1b-39c7-470e-abf9-d3d26e4e0614",
+    "metadata": {
+      "taskId": "TSK-1003",
+      "title": "Project Coordinator & Quality Analyst",
+      "assignedTo": "05d6c06b-4a71-4873-96b9-6cd858b13f93"
+    }
+  },
+  {
+    "_id": "4f1a58c0-7714-4d20-b0b6-c5fbd40e8db5",
+    "createdAt": "2026-10-11T06:22:08.989Z",
+    "updatedAt": "2026-10-11T06:22:08.989Z",
+    "actor": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+    "actorName": "Bhargavi Chowdary",
+    "actorEmail": "yarlagaddabhargavi07@gmail.com",
+    "action": "TASK_STATUS_UPDATED",
+    "entity": "Task",
+    "entityId": "b23aea1b-39c7-470e-abf9-d3d26e4e0614",
+    "metadata": {
+      "status": "In Progress",
+      "progress": 10
+    }
+  },
+  {
+    "_id": "ce7c4f26-3a1c-4a1f-8a2e-7287a9ecb00b",
+    "createdAt": "2026-10-11T06:35:19.930Z",
+    "updatedAt": "2026-10-11T06:35:19.932Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "ATTENDANCE_MODIFIED",
+    "entity": "Attendance",
+    "entityId": "0b051b65-cde8-475c-afdc-ab93d2d3df8a",
+    "metadata": {
+      "employeeId": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+      "date": "2026-10-11",
+      "oldStatus": "Present",
+      "newStatus": "Present",
+      "remarks": ""
+    }
+  },
+  {
+    "_id": "d0514363-d9b3-402a-b04e-6ac211b60faf",
+    "createdAt": "2026-10-11T06:35:31.734Z",
+    "updatedAt": "2026-10-11T06:35:31.735Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "ATTENDANCE_MODIFIED",
+    "entity": "Attendance",
+    "entityId": "0bee64ee-1a9a-4084-ada6-a78a2f3562f8",
+    "metadata": {
+      "employeeId": "69b7a9cf-49e5-49af-83b3-56187c7f4114",
+      "date": "2026-10-11",
+      "oldStatus": "Half Day",
+      "newStatus": "Half Day",
+      "remarks": ""
+    }
+  },
+  {
+    "_id": "ec8e2378-3770-4a6f-b5e3-a5c4225c3afc",
+    "createdAt": "2026-10-11T06:35:36.404Z",
+    "updatedAt": "2026-10-11T06:35:36.404Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "ATTENDANCE_MODIFIED",
+    "entity": "Attendance",
+    "entityId": "0b051b65-cde8-475c-afdc-ab93d2d3df8a",
+    "metadata": {
+      "employeeId": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+      "date": "2026-10-11",
+      "oldStatus": "Present",
+      "newStatus": "Present",
+      "remarks": ""
+    }
+  },
+  {
+    "_id": "614e2ebc-88e2-4ee5-84c5-b5cb489538ce",
+    "createdAt": "2026-10-11T06:35:39.449Z",
+    "updatedAt": "2026-10-11T06:35:39.449Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "ATTENDANCE_MODIFIED",
+    "entity": "Attendance",
+    "entityId": "0b051b65-cde8-475c-afdc-ab93d2d3df8a",
+    "metadata": {
+      "employeeId": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+      "date": "2026-10-11",
+      "oldStatus": "Present",
+      "newStatus": "Present",
+      "remarks": ""
+    }
+  },
+  {
+    "_id": "5ec968ec-eff6-4340-b396-6d8273a15f0b",
+    "createdAt": "2026-10-11T06:35:58.132Z",
+    "updatedAt": "2026-10-11T06:35:58.133Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "ATTENDANCE_MODIFIED",
+    "entity": "Attendance",
+    "entityId": "0b051b65-cde8-475c-afdc-ab93d2d3df8a",
+    "metadata": {
+      "employeeId": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+      "date": "2026-10-11",
+      "oldStatus": "Present",
+      "newStatus": "Present",
+      "remarks": ""
+    }
+  },
+  {
+    "_id": "72b6b533-d7ed-4c37-895f-8bfa9e5bacd3",
+    "createdAt": "2026-10-11T06:36:19.493Z",
+    "updatedAt": "2026-10-11T06:36:19.494Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "EMPLOYEE_UPDATED",
+    "entity": "User",
+    "entityId": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+    "metadata": {
+      "name": "Bhargavi Chowdary",
+      "phone": "+916302931704",
+      "department": "Operations",
+      "designation": "MD",
+      "joiningDate": "2026-10-05",
+      "role": "EMPLOYEE"
+    }
+  },
+  {
+    "_id": "f7466ff4-f4bc-4717-95e6-f19fff32865f",
+    "createdAt": "2026-10-11T06:42:17.198Z",
+    "updatedAt": "2026-10-11T06:42:17.198Z",
+    "actor": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+    "actorName": "Bhargavi Chowdary",
+    "actorEmail": "yarlagaddabhargavi07@gmail.com",
+    "action": "TASK_STATUS_UPDATED",
+    "entity": "Task",
+    "entityId": "b23aea1b-39c7-470e-abf9-d3d26e4e0614",
+    "metadata": {
+      "status": "Completed",
+      "progress": 100
+    }
+  },
+  {
+    "_id": "4615750e-387b-4c1c-a5d9-82a5eb18696a",
+    "createdAt": "2026-10-11T06:42:53.083Z",
+    "updatedAt": "2026-10-11T06:42:53.083Z",
+    "actor": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+    "actorName": "Bhargavi Chowdary",
+    "actorEmail": "yarlagaddabhargavi07@gmail.com",
+    "action": "TASK_STATUS_UPDATED",
+    "entity": "Task",
+    "entityId": "b23aea1b-39c7-470e-abf9-d3d26e4e0614",
+    "metadata": {
+      "status": "In Progress",
+      "progress": 3
+    }
+  },
+  {
+    "_id": "0abe08b0-c6dd-4c86-b560-5271378df35a",
+    "createdAt": "2026-10-11T06:43:02.920Z",
+    "updatedAt": "2026-10-11T06:43:02.921Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "TASK_UPDATED",
+    "entity": "Task",
+    "entityId": "b23aea1b-39c7-470e-abf9-d3d26e4e0614",
+    "metadata": {
+      "title": "Project Coordinator & Quality Analyst",
+      "description": "Description:\n\nDefine project roadmap, assign tasks, and track progress.\nWrite documentation (features list, workflow, user guide).\nTest frontend and backend for bugs, usability, and performance.\nCollect feedback and ensure smooth deployment.\nHandle communication between team and stakeholders.",
+      "assignedTo": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+      "department": "Engineering",
+      "priority": "High",
+      "deadline": "2026-10-13",
+      "remarks": "",
+      "progress": 0,
+      "status": "Not Started"
+    }
+  },
+  {
+    "_id": "cd898792-ecf4-41fb-983d-aff773b1a58e",
+    "createdAt": "2026-10-11T06:43:10.188Z",
+    "updatedAt": "2026-10-11T06:43:10.189Z",
+    "actor": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+    "actorName": "Bhargavi Chowdary",
+    "actorEmail": "yarlagaddabhargavi07@gmail.com",
+    "action": "TASK_STATUS_UPDATED",
+    "entity": "Task",
+    "entityId": "b23aea1b-39c7-470e-abf9-d3d26e4e0614",
+    "metadata": {
+      "status": "In Progress",
+      "progress": 10
+    }
+  },
+  {
+    "_id": "f984b545-ea17-4d88-a4a2-b87b2f4deed9",
+    "createdAt": "2026-10-11T06:43:16.322Z",
+    "updatedAt": "2026-10-11T06:43:16.323Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "TASK_UPDATED",
+    "entity": "Task",
+    "entityId": "7832ccf3-14b2-45c7-b724-d188df65a45b",
+    "metadata": {
+      "title": "UI/UX & Frontend Engineer",
+      "description": "Description:\n\nDesign the website layout (Home, Services, Contact, Dashboard).\n\nBuild responsive pages using HTML, CSS, JavaScript (or React).\nEnsure mobile-friendly and user-friendly interface.\nAdd icons for repair categories (Plumbing, Electrical, Carpentry, etc.).\nImplement booking form and navigation menus.",
+      "assignedTo": "f2339d90-a645-4bff-a3be-469550851083",
+      "department": "Engineering",
+      "priority": "Urgent",
+      "deadline": "2026-10-13",
+      "remarks": "Deliverable marked complete.",
+      "progress": 0,
+      "status": "Not Started"
+    }
+  },
+  {
+    "_id": "1e3f801b-4a7b-41f1-b09f-77b028d32b1f",
+    "createdAt": "2026-10-11T06:43:27.910Z",
+    "updatedAt": "2026-10-11T06:43:27.911Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "TASK_UPDATED",
+    "entity": "Task",
+    "entityId": "7832ccf3-14b2-45c7-b724-d188df65a45b",
+    "metadata": {
+      "title": "UI/UX & Frontend Engineer",
+      "description": "Description:\n\nDesign the website layout (Home, Services, Contact, Dashboard).\n\nBuild responsive pages using HTML, CSS, JavaScript (or React).\nEnsure mobile-friendly and user-friendly interface.\nAdd icons for repair categories (Plumbing, Electrical, Carpentry, etc.).\nImplement booking form and navigation menus.",
+      "assignedTo": "f2339d90-a645-4bff-a3be-469550851083",
+      "department": "Engineering",
+      "priority": "Urgent",
+      "deadline": "2026-10-13",
+      "remarks": "Deliverable marked complete.",
+      "progress": 0,
+      "status": "In Progress"
+    }
+  },
+  {
+    "_id": "25b8dc76-6d44-4990-8faf-9848dd9682dc",
+    "createdAt": "2026-10-11T06:43:34.567Z",
+    "updatedAt": "2026-10-11T06:43:34.568Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "TASK_UPDATED",
+    "entity": "Task",
+    "entityId": "b23aea1b-39c7-470e-abf9-d3d26e4e0614",
+    "metadata": {
+      "title": "Project Coordinator & Quality Analyst",
+      "description": "Description:\n\nDefine project roadmap, assign tasks, and track progress.\nWrite documentation (features list, workflow, user guide).\nTest frontend and backend for bugs, usability, and performance.\nCollect feedback and ensure smooth deployment.\nHandle communication between team and stakeholders.",
+      "assignedTo": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+      "department": "Engineering",
+      "priority": "High",
+      "deadline": "2026-10-13",
+      "remarks": "",
+      "progress": 0,
+      "status": "In Progress"
+    }
+  },
+  {
+    "_id": "43547f92-bc53-4539-8b19-3c4fba90765f",
+    "createdAt": "2026-10-11T06:43:38.840Z",
+    "updatedAt": "2026-10-11T06:43:38.840Z",
+    "actor": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+    "actorName": "Bhargavi Chowdary",
+    "actorEmail": "yarlagaddabhargavi07@gmail.com",
+    "action": "TASK_STATUS_UPDATED",
+    "entity": "Task",
+    "entityId": "b23aea1b-39c7-470e-abf9-d3d26e4e0614",
+    "metadata": {
+      "status": "In Progress",
+      "progress": 10
+    }
+  },
+  {
+    "_id": "7f4f3b6f-99b2-4380-b4b8-27be0f4191e3",
+    "createdAt": "2026-10-11T06:43:41.215Z",
+    "updatedAt": "2026-10-11T06:43:41.215Z",
+    "actor": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+    "actorName": "Bhargavi Chowdary",
+    "actorEmail": "yarlagaddabhargavi07@gmail.com",
+    "action": "TASK_STATUS_UPDATED",
+    "entity": "Task",
+    "entityId": "b23aea1b-39c7-470e-abf9-d3d26e4e0614",
+    "metadata": {
+      "status": "In Progress",
+      "progress": 10
+    }
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "_id": "1d8816a6-17c8-4710-88c3-796501d98018",
+    "createdAt": "2026-10-11T06:09:32.065Z",
+    "updatedAt": "2026-10-11T06:09:32.065Z",
+    "user": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+    "title": "Leave Request Rejected",
+    "message": "Your Casual Leave from 2026-10-06 to 2026-10-08 was declined: \"no\n\"",
+    "type": "leave",
+    "link": "/employee/leave"
+  },
+  {
+    "_id": "1c202c3b-eca4-43c7-8154-11e56ffbd4f1",
+    "createdAt": "2026-10-11T06:11:05.315Z",
+    "updatedAt": "2026-10-11T06:11:05.315Z",
+    "user": "69b7a9cf-49e5-49af-83b3-56187c7f4114",
+    "title": "Announcement: Home Repair Service  APP",
+    "message": "Front-end ,Back-end, Data-Base ",
+    "type": "announcement",
+    "link": "/employee/dashboard"
+  },
+  {
+    "_id": "04b5fae2-5f6b-456f-af25-397284439b02",
+    "createdAt": "2026-10-11T06:11:05.317Z",
+    "updatedAt": "2026-10-11T06:11:05.317Z",
+    "user": "6252f950-7e68-488b-8967-051d4be48729",
+    "title": "Announcement: Home Repair Service  APP",
+    "message": "Front-end ,Back-end, Data-Base ",
+    "type": "announcement",
+    "link": "/employee/dashboard"
+  },
+  {
+    "_id": "8bd237c5-ca8c-4fac-849f-d3b13c60804e",
+    "createdAt": "2026-10-11T06:11:05.319Z",
+    "updatedAt": "2026-10-11T06:11:05.319Z",
+    "user": "f2339d90-a645-4bff-a3be-469550851083",
+    "title": "Announcement: Home Repair Service  APP",
+    "message": "Front-end ,Back-end, Data-Base ",
+    "type": "announcement",
+    "link": "/employee/dashboard"
+  },
+  {
+    "_id": "2d82854f-5d68-4c79-b38f-ccc34e5028e6",
+    "createdAt": "2026-10-11T06:11:05.320Z",
+    "updatedAt": "2026-10-11T06:11:05.320Z",
+    "user": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+    "title": "Announcement: Home Repair Service  APP",
+    "message": "Front-end ,Back-end, Data-Base ",
+    "type": "announcement",
+    "link": "/employee/dashboard"
+  },
+  {
+    "_id": "80441de5-d929-4f27-96a1-d308978e3f87",
+    "createdAt": "2026-10-11T06:11:05.321Z",
+    "updatedAt": "2026-10-11T06:11:05.321Z",
+    "user": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "title": "Announcement: Home Repair Service  APP",
+    "message": "Front-end ,Back-end, Data-Base ",
+    "type": "announcement",
+    "link": "/employee/dashboard"
+  },
+  {
+    "_id": "c027095b-1278-4a84-b36d-6d3762a5bd92",
+    "createdAt": "2026-10-11T06:19:04.918Z",
+    "updatedAt": "2026-10-11T06:19:04.918Z",
+    "user": "f2339d90-a645-4bff-a3be-469550851083",
+    "title": "New Task Assigned",
+    "message": "You have been assigned task: \"UI/UX & Frontend Engineer\". Deadline: 2026-10-13.",
+    "type": "task",
+    "link": "/employee/tasks/7832ccf3-14b2-45c7-b724-d188df65a45b"
+  },
+  {
+    "_id": "628b0e16-c231-4107-bf32-7ff588a4cd74",
+    "createdAt": "2026-10-11T06:20:08.212Z",
+    "updatedAt": "2026-10-11T06:20:08.212Z",
+    "user": "6252f950-7e68-488b-8967-051d4be48729",
+    "title": "New Task Assigned",
+    "message": "You have been assigned task: \"Server & Database Engineer\". Deadline: 2026-10-14.",
+    "type": "task",
+    "link": "/employee/tasks/febc3f4c-55b4-4b34-9da7-a594475aae68"
+  },
+  {
+    "_id": "a224ac89-513e-4fc5-bff6-bf6dde5b57c6",
+    "createdAt": "2026-10-11T06:21:21.266Z",
+    "updatedAt": "2026-10-11T06:21:21.266Z",
+    "user": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+    "title": "New Task Assigned",
+    "message": "You have been assigned task: \"Project Coordinator & Quality Analyst\". Deadline: 2026-10-13.",
+    "type": "task",
+    "link": "/employee/tasks/b23aea1b-39c7-470e-abf9-d3d26e4e0614"
+  }
+]

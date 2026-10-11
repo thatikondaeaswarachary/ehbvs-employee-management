@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: ehbvs-employee-backend
+    runtime: node
+    plan: free
+    region: oregon
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: JWT_SECRET
+        value: ehbvs_enterprise_secure_token_secret_key_2026
+      - key: ADMIN_EMAIL
+        value: thatikondaeaswarachary@gmail.com
+      - key: ADMIN_PASSWORD
+        value: Teaswara@001001
+      - key: ADMIN_NAME
+        value: Eswara Chary Thatikonda
+      - key: CLIENT_URL
+        value: https://employee-management-e9961.web.app

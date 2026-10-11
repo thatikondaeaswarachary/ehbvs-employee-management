@@ -1,0 +1,12 @@
+specVersion: "v1"
+serviceId: "employee-management-e9961-service"
+location: "us-east4"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "employee-management-e9961-database"
+      cloudSql:
+        instanceId: "employee-management-e9961-instance"
+connectorDirs:
+  - "./connector"

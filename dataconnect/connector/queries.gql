@@ -1,0 +1,26 @@
+# List all employees
+query ListEmployees @auth(level: PUBLIC) {
+  users {
+    id
+    name
+    email
+    role
+    department
+    designation
+    isActive
+    workStatus
+  }
+}
+
+# Get user by email
+query GetUserByEmail($email: String!) @auth(level: PUBLIC) {
+  users(where: { email: { eq: $email } }) {
+    id
+    name
+    email
+    password
+    role
+    department
+    isActive
+  }
+}

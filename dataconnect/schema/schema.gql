@@ -1,0 +1,112 @@
+# EHBVS Solutions - SQL Connect (Cloud SQL PostgreSQL Schema)
+
+type User @table {
+  id: UUID! @default(expr: "uuidV4()")
+  name: String!
+  email: String!
+  phone: String
+  employeeId: String
+  password: String!
+  role: String!
+  department: String
+  designation: String
+  joiningDate: String
+  isActive: Boolean! @default(value: true)
+  workStatus: String
+  lastSeen: Timestamp
+  createdAt: Timestamp! @default(expr: "request.time")
+  updatedAt: Timestamp! @default(expr: "request.time")
+}
+
+type Attendance @table {
+  id: UUID! @default(expr: "uuidV4()")
+  employee: User!
+  date: String!
+  clockIn: String
+  clockOut: String
+  durationMinutes: Int
+  status: String!
+  workMode: String
+  location: String
+  notes: String
+  verified: Boolean @default(value: true)
+  adminOverride: Boolean @default(value: false)
+  createdAt: Timestamp! @default(expr: "request.time")
+  updatedAt: Timestamp! @default(expr: "request.time")
+}
+
+type Task @table {
+  id: UUID! @default(expr: "uuidV4()")
+  title: String!
+  description: String
+  assignedTo: User
+  createdBy: User
+  priority: String! @default(value: "Medium")
+  status: String! @default(value: "Pending")
+  dueDate: String
+  progress: Int @default(value: 0)
+  createdAt: Timestamp! @default(expr: "request.time")
+  updatedAt: Timestamp! @default(expr: "request.time")
+}
+
+type WorkReport @table {
+  id: UUID! @default(expr: "uuidV4()")
+  employee: User!
+  date: String!
+  summary: String!
+  keyAchievements: String
+  blockers: String
+  hoursSpent: Float
+  submittedAt: Timestamp! @default(expr: "request.time")
+  createdAt: Timestamp! @default(expr: "request.time")
+}
+
+type Leave @table {
+  id: UUID! @default(expr: "uuidV4()")
+  employee: User!
+  leaveType: String!
+  startDate: String!
+  endDate: String!
+  days: Float!
+  reason: String
+  status: String! @default(value: "Pending")
+  reviewedBy: User
+  createdAt: Timestamp! @default(expr: "request.time")
+  updatedAt: Timestamp! @default(expr: "request.time")
+}
+
+type Announcement @table {
+  id: UUID! @default(expr: "uuidV4()")
+  title: String!
+  content: String!
+  priority: String @default(value: "Normal")
+  targetDepartment: String
+  createdBy: User
+  createdAt: Timestamp! @default(expr: "request.time")
+}
+
+type Notification @table {
+  id: UUID! @default(expr: "uuidV4()")
+  user: User!
+  title: String!
+  message: String!
+  type: String @default(value: "system")
+  read: Boolean! @default(value: false)
+  createdAt: Timestamp! @default(expr: "request.time")
+}
+
+type AuditLog @table {
+  id: UUID! @default(expr: "uuidV4()")
+  actor: User
+  action: String!
+  target: String
+  details: String
+  timestamp: Timestamp! @default(expr: "request.time")
+}
+
+type Setting @table {
+  id: UUID! @default(expr: "uuidV4()")
+  key: String!
+  value: String!
+  updatedAt: Timestamp! @default(expr: "request.time")
+}

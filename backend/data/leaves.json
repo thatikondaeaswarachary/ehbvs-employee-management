@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "a63a76b1-98d8-4905-8098-b0ff748ba075",
+    "createdAt": "2026-10-05T14:48:22.863Z",
+    "updatedAt": "2026-10-11T06:09:32.063Z",
+    "employee": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+    "leaveType": "Casual Leave",
+    "fromDate": "2026-10-06",
+    "toDate": "2026-10-08",
+    "reason": "sfa",
+    "status": "Rejected",
+    "adminRemarks": "no\n",
+    "reviewedBy": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "reviewedAt": "2026-10-11T06:09:32.063Z"
+  }
+]
