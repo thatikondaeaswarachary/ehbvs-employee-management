@@ -2,7 +2,7 @@
   {
     "_id": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
     "createdAt": "2026-10-04T09:35:10.671Z",
-    "updatedAt": "2026-10-11T07:20:11.618Z",
+    "updatedAt": "2026-10-11T07:23:10.562Z",
     "name": "Eswara Chary Thatikonda",
     "email": "thatikondaeaswarachary@gmail.com",
     "phone": "+919494067204",
@@ -14,12 +14,12 @@
     "joiningDate": "2025-01-01",
     "isActive": true,
     "workStatus": "Working",
-    "lastSeen": "2026-10-11T07:20:11.618Z"
+    "lastSeen": "2026-10-11T07:23:10.562Z"
   },
   {
     "_id": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
     "createdAt": "2026-10-05T14:47:35.433Z",
-    "updatedAt": "2026-10-11T07:21:10.174Z",
+    "updatedAt": "2026-10-11T07:23:12.378Z",
     "name": "Bhargavi Chowdary",
     "email": "yarlagaddabhargavi07@gmail.com",
     "phone": "+916302931704",
@@ -31,7 +31,7 @@
     "role": "EMPLOYEE",
     "isActive": true,
     "workStatus": "Working",
-    "lastSeen": "2026-10-11T07:21:10.174Z"
+    "lastSeen": "2026-10-11T07:23:12.378Z"
   },
   {
     "_id": "f2339d90-a645-4bff-a3be-469550851083",
@@ -70,7 +70,7 @@
   {
     "_id": "69b7a9cf-49e5-49af-83b3-56187c7f4114",
     "createdAt": "2026-10-11T06:07:34.114Z",
-    "updatedAt": "2026-10-11T06:08:35.682Z",
+    "updatedAt": "2026-10-11T07:23:44.561Z",
     "name": "HEMANTH",
     "email": "hemanthadapa1921@gmail.com",
     "phone": "8639270561",
@@ -78,10 +78,10 @@
     "department": "Engineering",
     "designation": "Co founder",
     "joiningDate": "2026-10-11",
-    "password": "$2b$10$bj5NsesXVJPqNmmFenTN5eB.Qg9oFZy9eDigE7jv2H.XNB9DEUASG",
-    "role": "EMPLOYEE",
+    "password": "$2b$10$olvv6KGTL84/TOvAeaFZ4uu3mwocNXuDd05ThsGgMG3eaifSAGVz2",
+    "role": "ADMIN",
     "isActive": true,
-    "workStatus": "Offline",
-    "lastSeen": "2026-10-11T06:08:35.681Z"
+    "workStatus": "Working",
+    "lastSeen": "2026-10-11T07:23:44.561Z"
   }
 ]
