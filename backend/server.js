@@ -111,6 +111,24 @@ if (process.argv[1]?.endsWith('server.js') || (!process.env.FUNCTION_TARGET && !
     console.log(`   Listening at: http://localhost:${port}`);
     console.log(`   Database Mode: ${DB_MODE}`);
     console.log(`====================================================`);
+
+    // 24/7 Keep-Awake mechanism for free cloud hosting (e.g. Render)
+    const selfUrl = process.env.RENDER_EXTERNAL_URL || process.env.APP_URL || process.env.SERVER_URL;
+    if (selfUrl || process.env.KEEP_AWAKE === 'true') {
+      const pingTarget = (selfUrl || `http://localhost:${port}`).replace(/\/$/, '') + '/api/health';
+      const PING_INTERVAL_MS = 13 * 60 * 1000; // 13 minutes (Render sleeps after 15 min)
+      setInterval(async () => {
+        try {
+          const res = await fetch(pingTarget);
+          if (res.ok) {
+            console.log(`[Keep-Awake] 24/7 heartbeat ping successful to ${pingTarget}`);
+          }
+        } catch (e) {
+          console.warn(`[Keep-Awake] Heartbeat ping notice:`, e.message);
+        }
+      }, PING_INTERVAL_MS);
+      console.log(`[Keep-Awake] 24/7 heartbeat timer active for: ${pingTarget}`);
+    }
   });
 }
 

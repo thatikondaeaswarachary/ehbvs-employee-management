@@ -21,4 +21,6 @@ services:
       - key: ADMIN_NAME
         value: Eswara Chary Thatikonda
       - key: CLIENT_URL
-        value: https://employee-management-e9961.web.app
+        value: https://ehbvs-solutions-64772.web.app,https://employee-management-e9961.web.app
+      - key: KEEP_AWAKE
+        value: "true"

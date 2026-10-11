@@ -2,12 +2,13 @@
   {
     "_id": "1d8816a6-17c8-4710-88c3-796501d98018",
     "createdAt": "2026-10-11T06:09:32.065Z",
-    "updatedAt": "2026-10-11T06:09:32.065Z",
+    "updatedAt": "2026-10-11T07:54:11.984Z",
     "user": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
     "title": "Leave Request Rejected",
     "message": "Your Casual Leave from 2026-10-06 to 2026-10-08 was declined: \"no\n\"",
     "type": "leave",
-    "link": "/employee/leave"
+    "link": "/employee/leave",
+    "read": true
   },
   {
     "_id": "1c202c3b-eca4-43c7-8154-11e56ffbd4f1",

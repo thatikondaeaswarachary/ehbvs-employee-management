@@ -1,8 +1,8 @@
 import { bootstrapAdmin } from './utils/seedAdmin.js';
 import { connectDb } from './config/db.js';
 import { create, findById, findOne, list, update } from './repositories/store.js';
-import { hashPassword, comparePassword } from './utils/password.js';
-import { signToken } from './utils/token.js';
+import bcrypt from 'bcryptjs';
+import { signToken } from './utils/jwt.js';
 import jwt from 'jsonwebtoken';
 
 async function runTestSuite() {

@@ -2,7 +2,7 @@
   {
     "_id": "7832ccf3-14b2-45c7-b724-d188df65a45b",
     "createdAt": "2026-10-11T06:19:04.917Z",
-    "updatedAt": "2026-10-11T06:43:27.910Z",
+    "updatedAt": "2026-10-11T07:25:45.181Z",
     "taskId": "TSK-1001",
     "title": "UI/UX & Frontend Engineer",
     "description": "Description:\n\nDesign the website layout (Home, Services, Contact, Dashboard).\n\nBuild responsive pages using HTML, CSS, JavaScript (or React).\nEnsure mobile-friendly and user-friendly interface.\nAdd icons for repair categories (Plumbing, Electrical, Carpentry, etc.).\nImplement booking form and navigation menus.",
@@ -11,10 +11,10 @@
     "priority": "Urgent",
     "startDate": "2026-10-11",
     "deadline": "2026-10-13",
-    "status": "In Progress",
-    "progress": 0,
+    "status": "Completed",
+    "progress": 100,
     "remarks": "Deliverable marked complete.",
-    "completedAt": "2026-10-11T06:19:47.966Z",
+    "completedAt": "2026-10-11T07:25:45.181Z",
     "createdBy": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c"
   },
   {
@@ -38,7 +38,7 @@
   {
     "_id": "b23aea1b-39c7-470e-abf9-d3d26e4e0614",
     "createdAt": "2026-10-11T06:21:21.265Z",
-    "updatedAt": "2026-10-11T06:43:41.214Z",
+    "updatedAt": "2026-10-11T08:04:33.002Z",
     "taskId": "TSK-1003",
     "title": "Project Coordinator & Quality Analyst",
     "description": "Description:\n\nDefine project roadmap, assign tasks, and track progress.\nWrite documentation (features list, workflow, user guide).\nTest frontend and backend for bugs, usability, and performance.\nCollect feedback and ensure smooth deployment.\nHandle communication between team and stakeholders.",
@@ -48,7 +48,7 @@
     "startDate": "2026-10-11",
     "deadline": "2026-10-13",
     "status": "In Progress",
-    "progress": 10,
+    "progress": 40,
     "remarks": "",
     "completedAt": "2026-10-11T06:42:17.197Z",
     "createdBy": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c"

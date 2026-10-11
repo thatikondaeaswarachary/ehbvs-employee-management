@@ -965,5 +965,74 @@
       "status": "In Progress",
       "progress": 10
     }
+  },
+  {
+    "_id": "86196ed5-8880-40fb-bfa0-7cd58f220144",
+    "id": "86196ed5-8880-40fb-bfa0-7cd58f220144",
+    "createdAt": "2026-10-11T07:25:42.214Z",
+    "updatedAt": "2026-10-11T07:25:42.215Z",
+    "actor": "f2339d90-a645-4bff-a3be-469550851083",
+    "actorName": "Shiva Ram Talluri",
+    "actorEmail": "shiva.talluri@ehbvs.com",
+    "action": "TASK_STATUS_UPDATED",
+    "entity": "Task",
+    "entityId": "7832ccf3-14b2-45c7-b724-d188df65a45b",
+    "metadata": {
+      "status": "Completed",
+      "progress": 100
+    }
+  },
+  {
+    "_id": "010aa4fa-bd49-4bd8-b0d2-98096c7901e0",
+    "id": "010aa4fa-bd49-4bd8-b0d2-98096c7901e0",
+    "createdAt": "2026-10-11T07:25:45.181Z",
+    "updatedAt": "2026-10-11T07:25:45.181Z",
+    "actor": "f2339d90-a645-4bff-a3be-469550851083",
+    "actorName": "Shiva Ram Talluri",
+    "actorEmail": "shiva.talluri@ehbvs.com",
+    "action": "TASK_STATUS_UPDATED",
+    "entity": "Task",
+    "entityId": "7832ccf3-14b2-45c7-b724-d188df65a45b",
+    "metadata": {
+      "status": "Completed",
+      "progress": 100
+    }
+  },
+  {
+    "_id": "9b2936d7-d3d5-494c-9e3e-f080fc17168b",
+    "id": "9b2936d7-d3d5-494c-9e3e-f080fc17168b",
+    "createdAt": "2026-10-11T07:29:43.923Z",
+    "updatedAt": "2026-10-11T07:29:43.923Z",
+    "actor": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
+    "actorName": "Eswara Chary Thatikonda",
+    "actorEmail": "thatikondaeaswarachary@gmail.com",
+    "action": "EMPLOYEE_UPDATED",
+    "entity": "User",
+    "entityId": "69b7a9cf-49e5-49af-83b3-56187c7f4114",
+    "metadata": {
+      "name": "HEMANTH",
+      "employeeId": "EHB-3423-43",
+      "phone": "8639270561",
+      "department": "Engineering",
+      "designation": "Co founder",
+      "joiningDate": "2026-10-11",
+      "role": "ADMIN"
+    }
+  },
+  {
+    "_id": "ea7891f7-2fe3-4c1d-8c02-2e7a61bd15ea",
+    "id": "ea7891f7-2fe3-4c1d-8c02-2e7a61bd15ea",
+    "createdAt": "2026-10-11T08:04:33.003Z",
+    "updatedAt": "2026-10-11T08:04:33.003Z",
+    "actor": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
+    "actorName": "Bhargavi Chowdary",
+    "actorEmail": "yarlagaddabhargavi07@gmail.com",
+    "action": "TASK_STATUS_UPDATED",
+    "entity": "Task",
+    "entityId": "b23aea1b-39c7-470e-abf9-d3d26e4e0614",
+    "metadata": {
+      "status": "In Progress",
+      "progress": 40
+    }
   }
 ]

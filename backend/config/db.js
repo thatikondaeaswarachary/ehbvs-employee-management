@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 import fs from 'fs';
 import path from 'path';
 import crypto from 'crypto';
-import { initializeApp, getApps } from 'firebase-admin/app';
+import { initializeApp, getApps, cert } from 'firebase-admin/app';
 import { getFirestore } from 'firebase-admin/firestore';
 
 const dataDir = path.resolve('data');
@@ -12,9 +12,16 @@ if (!fs.existsSync(dataDir)) {
 
 export let firestoreDb = null;
 
-// Determine database mode: firestore (on Cloud Functions / explicit env), mongo, or json
+// Determine database mode: firestore (on Cloud Functions, Render with credentials, or explicit env), mongo, or json
 function detectDbMode() {
-  if (process.env.DB_MODE === 'firestore' || process.env.FUNCTION_TARGET || process.env.K_SERVICE || process.env.FIREBASE_CONFIG) {
+  if (
+    process.env.DB_MODE === 'firestore' ||
+    process.env.FIREBASE_SERVICE_ACCOUNT ||
+    fs.existsSync(path.resolve('serviceAccountKey.json')) ||
+    process.env.FUNCTION_TARGET ||
+    process.env.K_SERVICE ||
+    process.env.FIREBASE_CONFIG
+  ) {
     return 'firestore';
   }
   if (process.env.MONGO_URI && process.env.MONGO_URI.trim().length > 0) {
@@ -44,7 +51,33 @@ export async function connectDb() {
   if (DB_MODE === 'firestore') {
     try {
       if (!getApps().length) {
-        initializeApp();
+        let appOptions = {};
+        if (process.env.FIREBASE_SERVICE_ACCOUNT) {
+          try {
+            const raw = process.env.FIREBASE_SERVICE_ACCOUNT.trim();
+            const serviceAccount = raw.startsWith('{')
+              ? JSON.parse(raw)
+              : JSON.parse(fs.readFileSync(path.resolve(raw), 'utf8'));
+            appOptions = { credential: cert(serviceAccount) };
+            console.log('🔑 Initialized Firebase Admin using FIREBASE_SERVICE_ACCOUNT credentials.');
+          } catch (e) {
+            console.warn('⚠️ Could not parse FIREBASE_SERVICE_ACCOUNT credential:', e.message);
+          }
+        } else if (fs.existsSync(path.resolve('serviceAccountKey.json'))) {
+          try {
+            const serviceAccount = JSON.parse(fs.readFileSync(path.resolve('serviceAccountKey.json'), 'utf8'));
+            appOptions = { credential: cert(serviceAccount) };
+            console.log('🔑 Initialized Firebase Admin using serviceAccountKey.json.');
+          } catch (e) {
+            console.warn('⚠️ Could not read serviceAccountKey.json:', e.message);
+          }
+        } else if (process.env.FIREBASE_CONFIG) {
+          try {
+            const parsed = JSON.parse(process.env.FIREBASE_CONFIG);
+            if (parsed.projectId) appOptions = { projectId: parsed.projectId };
+          } catch (e) {}
+        }
+        initializeApp(appOptions);
       }
       firestoreDb = getFirestore();
       console.log('🔥 Cloud Firestore connected successfully for 24/7 persistent database storage!');
@@ -81,14 +114,26 @@ export async function connectDb() {
 export async function seedFirestoreIfEmpty() {
   if (!firestoreDb) return;
   try {
-    const usersSnap = await firestoreDb.collection('users').limit(1).get();
-    if (usersSnap.empty) {
-      console.log('🌱 Cloud Firestore empty: auto-seeding users from persistent storage...');
-      const localUsers = readJson('users');
-      for (const u of localUsers) {
-        await firestoreDb.collection('users').doc(String(u._id || u.id)).set(u);
+    for (const col of COLLECTIONS) {
+      const snap = await firestoreDb.collection(col).limit(1).get();
+      if (snap.empty) {
+        const localItems = readJson(col);
+        if (localItems && localItems.length > 0) {
+          console.log(`🌱 Cloud Firestore: auto-seeding ${localItems.length} records into collection '${col}'...`);
+          // Batch in groups of 400 for safety against Firestore 500 limit
+          for (let i = 0; i < localItems.length; i += 400) {
+            const chunk = localItems.slice(i, i + 400);
+            const batch = firestoreDb.batch();
+            for (const item of chunk) {
+              const docId = String(item._id || item.id || crypto.randomUUID());
+              const docRef = firestoreDb.collection(col).doc(docId);
+              batch.set(docRef, item);
+            }
+            await batch.commit();
+          }
+          console.log(`✅ Collection '${col}' successfully seeded into Cloud Firestore.`);
+        }
       }
-      console.log(`✅ Seeded ${localUsers.length} users into Cloud Firestore.`);
     }
   } catch (err) {
     console.warn('⚠️ Firestore auto-seed skipped:', err.message);

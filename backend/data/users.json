@@ -2,7 +2,7 @@
   {
     "_id": "96fa2c6b-9bb4-4b61-afe8-642f3bd8d45c",
     "createdAt": "2026-10-04T09:35:10.671Z",
-    "updatedAt": "2026-10-11T07:23:10.562Z",
+    "updatedAt": "2026-10-11T08:05:11.082Z",
     "name": "Eswara Chary Thatikonda",
     "email": "thatikondaeaswarachary@gmail.com",
     "phone": "+919494067204",
@@ -14,12 +14,12 @@
     "joiningDate": "2025-01-01",
     "isActive": true,
     "workStatus": "Working",
-    "lastSeen": "2026-10-11T07:23:10.562Z"
+    "lastSeen": "2026-10-11T08:05:11.082Z"
   },
   {
     "_id": "05d6c06b-4a71-4873-96b9-6cd858b13f93",
     "createdAt": "2026-10-05T14:47:35.433Z",
-    "updatedAt": "2026-10-11T07:23:12.378Z",
+    "updatedAt": "2026-10-11T08:04:41.281Z",
     "name": "Bhargavi Chowdary",
     "email": "yarlagaddabhargavi07@gmail.com",
     "phone": "+916302931704",
@@ -31,12 +31,12 @@
     "role": "EMPLOYEE",
     "isActive": true,
     "workStatus": "Working",
-    "lastSeen": "2026-10-11T07:23:12.378Z"
+    "lastSeen": "2026-10-11T08:04:41.281Z"
   },
   {
     "_id": "f2339d90-a645-4bff-a3be-469550851083",
     "createdAt": "2026-10-11T05:29:03.676Z",
-    "updatedAt": "2026-10-11T07:00:09.814Z",
+    "updatedAt": "2026-10-11T07:25:31.897Z",
     "name": "Shiva Ram Talluri",
     "email": "shiva.talluri@ehbvs.com",
     "phone": "+916303387728",
@@ -47,8 +47,8 @@
     "password": "$2b$10$kGw8sE7cuNRGO8hSBNxuxu9ox1SYzFdtRlSFvfL.VAcuGfy9f9jkq",
     "role": "EMPLOYEE",
     "isActive": true,
-    "workStatus": "Offline",
-    "lastSeen": "2026-10-11T07:00:09.814Z"
+    "workStatus": "Working",
+    "lastSeen": "2026-10-11T07:25:31.897Z"
   },
   {
     "_id": "6252f950-7e68-488b-8967-051d4be48729",
@@ -70,18 +70,18 @@
   {
     "_id": "69b7a9cf-49e5-49af-83b3-56187c7f4114",
     "createdAt": "2026-10-11T06:07:34.114Z",
-    "updatedAt": "2026-10-11T07:23:44.561Z",
+    "updatedAt": "2026-10-11T07:29:43.923Z",
     "name": "HEMANTH",
     "email": "hemanthadapa1921@gmail.com",
     "phone": "8639270561",
-    "employeeId": "12",
+    "employeeId": "EHB-3423-43",
     "department": "Engineering",
     "designation": "Co founder",
     "joiningDate": "2026-10-11",
     "password": "$2b$10$olvv6KGTL84/TOvAeaFZ4uu3mwocNXuDd05ThsGgMG3eaifSAGVz2",
     "role": "ADMIN",
     "isActive": true,
-    "workStatus": "Working",
-    "lastSeen": "2026-10-11T07:23:44.561Z"
+    "workStatus": "Offline",
+    "lastSeen": "2026-10-11T07:28:24.076Z"
   }
 ]
